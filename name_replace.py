@@ -63,10 +63,9 @@ def process_file(input_file, output_file, name_mapping):
 # 示例运行
 if __name__ == "__main__":
     # 中英文对应表文件路径
-    name_mapping_file = "./name_mapping.txt"  # 假设文件格式是中文,英文
-    # 输入和输出的文本文件
-    input_txt_file = "./小说初步选取/test/test.txt"
-    output_txt_file = "./小说初步选取/test/test_namechanged.txt"
+    name_mapping_file = "./8Radish/new/name_table/【玖玖热文】《双面总裁：影帝老公缠上我》米果儿 楚千亦.csv"  # 假设文件格式是中文,英文
+    input_txt_file =  "./8Radish/new/【玖玖热文】《双面总裁：影帝老公缠上我》米果儿 楚千亦.txt"
+    output_txt_file ="./8Radish/new/双面总裁:影帝老公缠上我name changed.txt"
 
     # 加载名字映射表
     name_mapping = load_name_mapping(name_mapping_file)
